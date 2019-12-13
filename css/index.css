@@ -1,5 +1,6 @@
 .center {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -179,6 +180,7 @@ p {
 }
 .nav nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   width: 400px;
 }
@@ -259,6 +261,7 @@ footer {
   width: 100px;
   height: 35px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 5px;

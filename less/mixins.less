@@ -1,5 +1,10 @@
-.center {
+.flex(@direction: row) {
   display: flex;
+  flex-direction: @direction;
+}
+
+.center {
+  .flex();
   justify-content: center;
   align-items: center;
 }
